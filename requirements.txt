@@ -1,0 +1,4 @@
+# Clearly they cant just give it to you apparently, cause the yaml is impossible to find.
+snowflake-snowpark-python
+streamlit
+requests
