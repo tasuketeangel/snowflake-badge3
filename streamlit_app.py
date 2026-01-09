@@ -28,7 +28,6 @@ ingredients_list = st.multiselect(
     'Choose 0-5 ingr',
     my_dataframe
 )
-st.stop()
 
 
 if ingredients_list:
