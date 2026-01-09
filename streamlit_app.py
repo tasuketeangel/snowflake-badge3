@@ -44,7 +44,7 @@ if ingredients_list:
 
         st.subheader("nf")
         # nutrition (to pass hash)
-        smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
+        smoothiefroot_response = requests.get(f"https://my.smoothiefroot.com/api/fruit/{search_on}")
         #st.text(smoothiefroot_response)
         sf_df = st.dataframe(data=smoothiefroot_response.json(), use_container_width=True)
 
